@@ -200,7 +200,7 @@ config.webui_addresses = ['0.0.0.0'];
  * to https, if set true, then no https request will be processed, but only http
  * request
  */
-config.insecure_access = false;
+config.insecure_access = true;
 
 // HTTP port for NodeJS Server.
 config.http_port = '8080';
